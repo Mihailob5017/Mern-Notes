@@ -1,0 +1,23 @@
+.valign-bottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.collapsible-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bg-urgent {
+	border: 2px solid rgb(244, 67, 54);
+	margin-bottom: 1px;
+}
+.bg-important {
+	border: 2px solid rgb(76, 175, 80);
+	margin-bottom: 1px;
+}
+
+.bg-regular {
+	border: 2px solid rgba(3, 169, 244);
+	margin-bottom: 1px;
+}
