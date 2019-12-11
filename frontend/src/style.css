@@ -9,15 +9,15 @@
 }
 
 .bg-urgent {
-	border: 2px solid rgb(244, 67, 54);
-	margin-bottom: 1px;
+	background-color:rgba(244, 67, 54,0.6);
+	
 }
 .bg-important {
-	border: 2px solid rgb(76, 175, 80);
-	margin-bottom: 1px;
+	background-color:rgba(76, 175, 80,0.6);
+	
 }
 
 .bg-regular {
-	border: 2px solid rgba(3, 169, 244);
-	margin-bottom: 1px;
+	background-color:rgba(3, 169, 244,0.6);
 }
+
