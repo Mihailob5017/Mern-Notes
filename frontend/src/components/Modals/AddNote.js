@@ -18,7 +18,7 @@ const AddNote = () => {
 					noteText: noteText,
 					importance: alert
 				});
-				console.log(post.data);
+				M.toast({html:post.data});
 			} catch (error) {
 				console.error(error);
 			}

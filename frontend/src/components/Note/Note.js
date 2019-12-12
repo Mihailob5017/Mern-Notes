@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import contextValue from '../../Context API/Context';
+import M from 'materialize-css/dist/js/materialize.min.js'
 const axios = require('axios').default;
 
 const Note = ({ note }) => {
@@ -8,7 +9,7 @@ const Note = ({ note }) => {
 		const resault = await axios.delete(
 			`http://localhost:5000/notes/${note._id}`
 		);
-		console.log(resault.data);
+		M.toast({html:resault.data});
 
 		context.getNotes();
 	};

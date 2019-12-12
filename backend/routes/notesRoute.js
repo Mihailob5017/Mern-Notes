@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
 //delete a specific note
 router.delete('/:id',async (req,res)=>{
   try {
-    await Model.findByIdAndDelete(req.params.id).then(()=>res.send('note succesfully deleted'))
+    await Model.findByIdAndDelete(req.params.id).then(()=>res.send('Successfuly deleted'))
   } catch (error) {
     res.status(400).json({ message: "Error Occured", error: error });
   }
